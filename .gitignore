@@ -1,0 +1,20 @@
+# Environment variables (Never commit your secrets/API keys!)
+.env
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Databases (SQLite files generated during runtime)
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / Editor configurations
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
