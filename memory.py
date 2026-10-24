@@ -1,6 +1,8 @@
 from agno.agent import Agent
+
 from agno.models.groq import Groq
 from dotenv import load_dotenv
+
 from agno.db.sqlite import SqliteDb
 from rich.pretty import pprint
 
