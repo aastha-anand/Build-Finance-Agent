@@ -1,8 +1,9 @@
 from pathlib import Path
 from dotenv import load_dotenv
 from agno.models.groq import Groq
-load_dotenv(dotenv_path=Path(__file__).resolve().parent / ".env")
 from textwrap import dedent
+
+load_dotenv(dotenv_path=Path(__file__).resolve().parent / ".env")
 
 from agno.agent import Agent
 from agno.models.openai import OpenAIChat
