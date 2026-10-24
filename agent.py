@@ -6,7 +6,6 @@ from agno.models.groq import Groq
 
 load_dotenv(dotenv_path=Path(__file__).resolve().parent / ".env")
 
-
 def build_agent():
     return Agent(
         model=Groq(id="openai/gpt-oss-20b"),
