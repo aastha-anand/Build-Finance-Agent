@@ -5,7 +5,6 @@ st.set_page_config(
     page_title="YouTube Video Analyzer", 
     layout="centered"
 )
-
 st.title("YouTube Video Analyzer")
 
 @st.cache_resource
