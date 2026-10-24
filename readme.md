@@ -1,7 +1,6 @@
 The `OPENAI_API_KEY` and `GROQ_API_KEY` are secret authentication keys used to connect your code to external Large Language Model (LLM) providers.
 
 Here is what each one is used for:
-
 ---
 
 ### 1. `OPENAI_API_KEY`
